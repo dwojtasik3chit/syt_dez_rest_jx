@@ -1,12 +1,12 @@
-package tradearea;
+package rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WarehouseApplication {
+public class ElectionDataApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WarehouseApplication.class, args);
+		SpringApplication.run(ElectionDataApplication.class, args);
 	}
 }

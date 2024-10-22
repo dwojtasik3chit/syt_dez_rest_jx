@@ -1,18 +1,18 @@
-package tradearea.warehouse;
+package rest.election;
 
 import org.springframework.stereotype.Service;
-import tradearea.model.WarehouseData;
+import rest.model.ElectionData;
 
 @Service
-public class WarehouseService {
+public class ElectionDataService {
 	
 	public String getGreetings( String inModule ) {
         return "Greetings from " + inModule;
     }
 
-    public WarehouseData getWarehouseData( String inID ) {
+    public ElectionData getElectionData(int inID ) {
     	
-    	WarehouseSimulation simulation = new WarehouseSimulation();
+    	ElectionDataSimulation simulation = new ElectionDataSimulation();
         return simulation.getData( inID );
         
     }
